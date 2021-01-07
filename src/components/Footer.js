@@ -11,7 +11,7 @@ class Footer extends Component {
         <div id='footer-copyrights' className='py-3 px-2'>
           <p className='mb-2 small text-center'>
             &copy;2020{' '}
-            <a href='#' className='text-decoration-none text-white'>
+            <a href className='text-decoration-none text-white'>
               www.funsigns.com
             </a>{' '}
             All rights Reserved.

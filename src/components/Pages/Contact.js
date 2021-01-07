@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Container, Form } from 'react-bootstrap'
 import { Form as FinalForm, Field } from 'react-final-form'
-import { Link } from 'react-router-dom'
 import validator from 'validator'
 
 class Contact extends Component {

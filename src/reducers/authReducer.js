@@ -10,7 +10,7 @@ const INITIAL_STATE = {
     : null,
 }
 
-export default (state = INITIAL_STATE, action) => {
+const authReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case LOGIN:
       sessionStorage.setItem('jwtToken', action.payload.jwtToken)
@@ -36,3 +36,5 @@ export default (state = INITIAL_STATE, action) => {
       return state
   }
 }
+
+export default authReducer;

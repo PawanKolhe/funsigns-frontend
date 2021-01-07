@@ -217,6 +217,7 @@ class Navigation extends Component {
 
             <a
               className={`nav-link hvr-grow clickable`}
+              href
               onClick={() => {
                 this.setState({
                   showLogoutModal: true,

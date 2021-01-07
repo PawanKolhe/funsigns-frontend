@@ -10,7 +10,6 @@ import {
   CREATE_COURSE,
   EDIT_COURSE,
   GET_STUDENTS,
-  GET_STUDENT,
   GET_LOGGED_IN_USER,
 } from './types'
 
